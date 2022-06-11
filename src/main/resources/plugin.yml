@@ -1,0 +1,6 @@
+name: SuperHero
+version: '${project.version}'
+main: me.codecraft.superhero.Main
+api-version: 1.18
+authors: [ CodeCraft ]
+description: Add the Power of creeper god
