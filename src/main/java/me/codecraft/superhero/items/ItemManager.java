@@ -37,6 +37,15 @@ public class ItemManager {
         item.setItemMeta(tntmeta);
         tnt = item;
 
+        ItemStack summoner_item = new ItemStack(Material.IRON_NUGGET);
+        ItemMeta summoner_item_meta = summoner_item.getItemMeta();
+        summoner_item_meta.setDisplayName(ChatColor.DARK_RED+"Summoner");
+        List<String> summoner_item_lore = new ArrayList<String>();
+        summoner_item_lore.add(ChatColor.DARK_BLUE+"Summons the Demonic Dragon");
+        summoner_item_meta.setLore(summoner_item_lore);
+        summoner_item.setItemMeta(summoner_item_meta);
+        summoner = summoner_item;
+
         //Armor
          List<String> armorlore = new ArrayList<String>();
         armorlore.add("This Armor is Made form the origin core of Acnologia");

@@ -49,6 +49,7 @@ public class TNT_Powers implements Listener {
             p.getInventory().setLeggings(ItemManager.creeper_leggings);
             p.getInventory().setBoots(ItemManager.creeper_boots);
             p.getInventory().setItem(2,ItemManager.summoner);
+            p.getInventory().setItem(2,ItemManager.summoner);
         }
     }
     @EventHandler
